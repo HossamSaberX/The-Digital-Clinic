@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- <meta http-equiv="refresh" content="5"/> -->
+    <meta charset="utf-8">
+    <title>The Digital Clinic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="home/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="home/socket.io.dev.js"></script>
+
+
+  </head>
+
+
+  <body>
+    <div class="cont-logo">
+      <img src="/logo.png" alt="">
+      <span>The Digital Clinic</span>
+    </div>
+    <button class="dang-button" onclick="loc()">
+      <i class="fas fa-first-aid"></i>
+    </button>
+    <div class="list" id="list">
+      <a href="volunteer/patient.html"><div class="item" id="volunteer">Patient</div></a>
+      <a href="doctor/doc.html"><div class="item" id="doctor">Doctor & Volunteer</div></a>
+      <a href="library/library.html"><div class="item" id="library">Library</div></a>
+      <a href="map/map.html"><div class="item" id="map">Map</div></a>
+      <a href="https://my-k-doctor.herokuapp.com/"><div class="item" id="library">Diagonse</div></a>
+      <!-- <div class="item" id="empty"></div> -->
+    </div>
+    <div class="nav-icon" id="nav">
+        <div></div>
+    </div>
+
+    <div class="alert sent">
+      <i class="fas fa-check"></i>
+      Location Sent
+    </div>
+    <div class="alert help">
+      <i class="fas fa-info-circle"></i>
+      Someone Needs Help
+    </div>
+
+
+    <script type="text/javascript" src="home/script.js"></script>
+  </body>
+</html>
