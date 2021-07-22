@@ -1,4 +1,4 @@
-var socket = io.connect("https://hossamsaberx.github.io/The-Digital-Clinic/");
+var socket = io.connect("https://healt-care-station.herokuapp.com/");
 // response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
 socket.on('map', function(data){
   // location.reload();
