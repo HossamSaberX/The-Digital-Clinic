@@ -1,0 +1,19 @@
+{
+  "name": "the-digital-clinic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HossamSaberX/The-Digital-Clinic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HossamSaberX/The-Digital-Clinic/issues"
+  },
+  "homepage": "https://github.com/HossamSaberX/The-Digital-Clinic#readme"
+}
