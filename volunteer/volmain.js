@@ -1,4 +1,4 @@
-var socket = io.connect("https://hossamsaberx.github.io/The-Digital-Clinic/" || "https://localhost3000"),
+var socket = io.connect("https://healt-care-station.herokuapp.com/" || "https://localhost3000"),
     chatView = $("#chatView"),
     name,
     messVal;
